@@ -4,7 +4,7 @@ A public information page for a Streamlit-based clinical research assistant desi
 
 The live tool is available here:
 
-[Open Clinical Research Tool](https://drsarkar-stats.streamlit.app/)
+[Open Clinical Research Tool](https://drsarkar-medstats.streamlit.app/)
 
 ## What This Tool Does
 
