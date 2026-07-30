@@ -1,60 +1,80 @@
-# Clinical Research Tool
+# DrSarkar MedStats
 
-A public information page for a Streamlit-based clinical research assistant designed for clinicians, residents, medical students, and early-career researchers.
+**Current Version:** v1.0.0  
+**Status:** Active Development  
+**Author:** Dr. Subham Sarkar, MD  
+**License:** All Rights Reserved  
+**Live Application:** https://drsarkar-medstats.streamlit.app/
 
-The live tool is available here:
+DrSarkar MedStats (Version 1.0.0) is a web-based platform for AI-assisted clinical research planning and biostatistical analysis. It is designed to support clinicians, residents, medical students, and biomedical researchers during study design, statistical decision-making, and preliminary data analysis.
 
-[Open Clinical Research Tool](https://drsarkar-medstats.streamlit.app/)
+---
 
-## What This Tool Does
+## Features
 
-This tool supports early clinical research planning through four main modules.
+DrSarkar MedStats currently provides four integrated modules to support early-stage clinical research.
 
-## 1. PICO Novelty Checker
+### 1. PICO Novelty Checker
 
-The PICO Novelty Checker helps users structure a clinical research idea using the PICO format:
+The PICO Novelty Checker assists users in structuring a clinical research question using the PICO framework.
 
-- **P**: Population / Patient group
-- **I**: Intervention
-- **C**: Comparison
-- **O**: Outcome
+- **P** – Population / Patient Group
+- **I** – Intervention
+- **C** – Comparison
+- **O** – Outcome
 
-After entering the PICO details, the tool provides an AI-supported research planning summary, including:
+Based on the submitted PICO, the tool generates an AI-assisted research planning summary, including:
 
-- Summary of the research question
+- Research question summary
 - Existing evidence overview
-- Research gaps
+- Identification of research gaps
 - Novelty assessment
 - Suggested primary and secondary objectives
 - Null and alternative hypotheses
-- Potential limitations
-- Recommended databases and search terms
+- Potential study limitations
+- Recommended databases and literature search terms
 
-## 2. Sample Size Calculator
+---
 
-The sample size calculator estimates the required sample size for a two-group study using:
+### 2. Sample Size Calculator
 
-- Alpha
-- Beta / study power
+The Sample Size Calculator estimates the required sample size for two-group comparative studies using:
+
+- Significance level (α)
+- Statistical power (1 − β)
 - Allocation ratio
 - Effect size
 
-It provides the recommended total sample size and group-wise sample size.
+The tool reports both total and group-wise sample size estimates.
 
-## 3. Statistical Test Recommender
+---
 
-The statistical test recommender helps users choose an appropriate statistical test based on:
+### 3. Statistical Test Recommender
 
-- Type of data
-- Research goal
-- Number of groups
-- Paired or unpaired design
+The Statistical Test Recommender assists users in selecting appropriate statistical methods based on:
 
-It may suggest commonly used tests such as t-tests, ANOVA, chi-square test, Mann-Whitney U test, Kruskal-Wallis test, Wilcoxon signed-rank test, Friedman test, correlation, or regression.
+- Data type
+- Research objective
+- Number of study groups
+- Paired or independent study design
 
-## 4. Basic Data Analysis
+Suggested methods may include:
 
-The data analysis module allows users to upload a CSV file and perform basic descriptive analysis, including:
+- Student's t-test
+- ANOVA
+- Chi-square test
+- Mann–Whitney U test
+- Kruskal–Wallis test
+- Wilcoxon signed-rank test
+- Friedman test
+- Correlation analysis
+- Regression analysis
+
+---
+
+### 4. Basic Data Analysis
+
+The Basic Data Analysis module allows users to upload CSV datasets and perform preliminary descriptive statistical analysis, including:
 
 - Data preview
 - Mean
@@ -64,12 +84,14 @@ The data analysis module allows users to upload a CSV file and perform basic des
 - Variance
 - Skewness
 - Kurtosis
-- Shapiro-Wilk normality test
+- Shapiro–Wilk normality test
 - Histogram visualization
 
-## Intended Audience
+---
 
-This tool is intended for:
+## Intended Users
+
+DrSarkar MedStats is intended for:
 
 - Clinicians
 - Residents
@@ -78,17 +100,49 @@ This tool is intended for:
 - Early-career investigators
 - Research mentors
 
+---
+
+## Version History
+
+| Version | Release | Description |
+|----------|---------|-------------|
+| v1.0.0 | July 2026 | Initial public academic release |
+
+---
+
 ## Important Disclaimer
 
-This tool is intended to support research planning and preliminary statistical decision-making. It does not replace formal biostatistical consultation, institutional ethics review, expert clinical judgment, or a complete literature review.
+DrSarkar MedStats is intended to support clinical research planning and preliminary statistical decision-making. The platform is designed for educational and research support purposes only. It does **not** replace formal biostatistical consultation, institutional ethics review, expert clinical judgment, or a comprehensive literature review.
 
-For final study protocols, sample size justification, and statistical analysis plans, users should consult a qualified biostatistician or research mentor.
+Users should consult qualified biostatisticians and subject-matter experts before finalizing study protocols, statistical analysis plans, or research conclusions.
+
+---
 
 ## Source Code
 
-The source code for this project is maintained privately by the developer. This public repository is provided as an information and access page for users of the live application.
+The production source code is maintained in a private repository by the developer. This public repository serves as the official project page for software information, version history, releases, and citation details.
+
+---
+
+## Citation
+
+If you use DrSarkar MedStats in academic work, please cite the archived software release.
+
+**DOI:** *To be assigned.*
+
+---
 
 ## Developer
 
-Developed by **Dr. Subham Sarkar**  
-Senior Resident, AIIMS Jodhpur
+**Dr. Subham Sarkar, MD**  
+Senior Resident  
+Department of Pharmacology  
+All India Institute of Medical Sciences (AIIMS), Kalyani, India
+
+---
+
+## License
+
+© 2026 Dr. Subham Sarkar. All rights reserved.
+
+The web application is freely accessible for research and educational purposes. The source code is proprietary and is not publicly distributed. Unauthorized copying, redistribution, or modification of the software is prohibited without prior written permission.
