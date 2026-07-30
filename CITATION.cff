@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+title: "DrSarkar MedStats"
+message: "If you use DrSarkar MedStats in academic work, please cite this software."
+
+type: software
+
+authors:
+  - family-names: Sarkar
+    given-names: Subham
+    affiliation: Department of Pharmacology, AIIMS Kalyani, India
+
+version: "1.0.0"
+
+date-released: 2026-07-30
+
+repository-code: "https://github.com/doctordexter911/DrSarkar-MedStats"
+
+abstract: >
+  DrSarkar MedStats is a proprietary web-based platform for AI-assisted
+  clinical research planning, statistical decision support, and
+  preliminary data analysis for clinicians, medical students,
+  residents, and biomedical researchers.
+
+license: "Proprietary"
+
+copyright: "© 2026 Dr. Subham Sarkar. All rights reserved."
