@@ -1,65 +1,66 @@
 # DrSarkar MedStats
+
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21705685.svg)](https://doi.org/10.5281/zenodo.21705685)
 
-**Current Version:** v1.0.0  
+**Software Version:** v1.0.0  
 **Status:** Active Development  
 **Author:** Dr. Subham Sarkar, MD  
-**License:** All Rights Reserved  
-**Live Application:** https://drsarkar-medstats.streamlit.app/
-
-DrSarkar MedStats (Version 1.0.0) is a web-based platform for AI-assisted clinical research planning and biostatistical analysis. It is designed to support clinicians, residents, medical students, and biomedical researchers during study design, statistical decision-making, and preliminary data analysis.
+**License:** Proprietary (All Rights Reserved)  
+**Live Application:** https://drsarkar-medstats.streamlit.app/  
+**DOI:** https://doi.org/10.5281/zenodo.21705685
 
 ---
 
-## Features
+# Overview
 
-DrSarkar MedStats currently provides four integrated modules to support early-stage clinical research.
+**DrSarkar MedStats** is a web-based clinical research support platform that integrates AI-assisted research planning, statistical decision support, and preliminary data analysis. The platform is designed to assist clinicians, residents, medical students, and biomedical researchers throughout the early stages of clinical study design.
 
-### 1. PICO Novelty Checker
+The current software release (Software Version **v1.0.0**) provides four integrated modules that support research question development, study planning, statistical decision-making, and exploratory data analysis.
 
-The PICO Novelty Checker assists users in structuring a clinical research question using the PICO framework.
+---
 
-- **P** – Population / Patient Group
-- **I** – Intervention
-- **C** – Comparison
-- **O** – Outcome
+# Features
 
-Based on the submitted PICO, the tool generates an AI-assisted research planning summary, including:
+## 1. AI-assisted PICO Novelty Checker
+
+Supports formulation and refinement of research questions using the PICO framework.
+
+The module provides:
 
 - Research question summary
 - Existing evidence overview
-- Identification of research gaps
+- Research gap identification
 - Novelty assessment
 - Suggested primary and secondary objectives
 - Null and alternative hypotheses
 - Potential study limitations
-- Recommended databases and literature search terms
+- Suggested literature search strategy
 
 ---
 
-### 2. Sample Size Calculator
+## 2. Sample Size Calculator
 
-The Sample Size Calculator estimates the required sample size for two-group comparative studies using:
+Calculates sample size for comparative clinical studies using:
 
 - Significance level (α)
-- Statistical power (1 − β)
-- Allocation ratio
+- Statistical power (1−β)
 - Effect size
+- Allocation ratio
 
-The tool reports both total and group-wise sample size estimates.
+Outputs include both total and group-wise sample size estimates.
 
 ---
 
-### 3. Statistical Test Recommender
+## 3. Statistical Test Recommender
 
-The Statistical Test Recommender assists users in selecting appropriate statistical methods based on:
+Assists users in selecting appropriate statistical methods based on:
 
-- Data type
 - Research objective
+- Outcome variable type
 - Number of study groups
-- Paired or independent study design
+- Independent or paired study design
 
-Suggested methods may include:
+Supported methods include:
 
 - Student's t-test
 - ANOVA
@@ -73,11 +74,12 @@ Suggested methods may include:
 
 ---
 
-### 4. Basic Data Analysis
+## 4. Basic Data Analysis
 
-The Basic Data Analysis module allows users to upload CSV datasets and perform preliminary descriptive statistical analysis, including:
+Provides preliminary descriptive statistical analysis for uploaded CSV datasets, including:
 
-- Data preview
+- Dataset preview
+- Summary statistics
 - Mean
 - Median
 - Mode
@@ -90,7 +92,7 @@ The Basic Data Analysis module allows users to upload CSV datasets and perform p
 
 ---
 
-## Intended Users
+# Intended Users
 
 DrSarkar MedStats is intended for:
 
@@ -98,53 +100,97 @@ DrSarkar MedStats is intended for:
 - Residents
 - Medical students
 - Clinical researchers
+- Biomedical researchers
 - Early-career investigators
 - Research mentors
 
 ---
 
-## Version History
+# Software Availability
 
-| Version | Release | Description |
-|----------|---------|-------------|
-| v1.0.0 | July 2026 | Initial public academic release |
-
----
-
-## Important Disclaimer
-
-DrSarkar MedStats is intended to support clinical research planning and preliminary statistical decision-making. The platform is designed for educational and research support purposes only. It does **not** replace formal biostatistical consultation, institutional ethics review, expert clinical judgment, or a comprehensive literature review.
-
-Users should consult qualified biostatisticians and subject-matter experts before finalizing study protocols, statistical analysis plans, or research conclusions.
+| Component | Availability |
+|-----------|--------------|
+| Live web application | Public |
+| Software DOI | Available |
+| Citation metadata | Available |
+| GitHub Releases | Available |
+| Source code | Private (Proprietary) |
 
 ---
 
-## Source Code
+# Release History
 
-The production source code is maintained in a private repository by the developer. This public repository serves as the official project page for software information, version history, releases, and citation details.
+| Software Version | Archived Release | Description |
+|------------------|------------------|-------------|
+| **v1.0.0** | **v1.0.2** | Official DOI-enabled archival release (no functional software changes) |
+| v1.0.0 | v1.0.1 | Metadata synchronization release |
+| v1.0.0 | v1.0.0 | Initial public academic release |
+
+**Note:**  
+Software functionality remains unchanged across archived releases **v1.0.0**, **v1.0.1**, and **v1.0.2**. Releases **v1.0.1** and **v1.0.2** were created solely to establish DOI registration and improve citation metadata. The current functional software version remains **v1.0.0**.
 
 ---
 
-## Citation
+# Citation
 
-If you use DrSarkar MedStats in your research, please cite:
+If you use **DrSarkar MedStats** in your research, please cite:
 
-Sarkar, S. (2026). *DrSarkar MedStats* (Version 1.0.2) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.21705685
+> Sarkar, S. (2026). *DrSarkar MedStats* (Version 1.0.2) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.21705685
 
-**DOI:** https://doi.org/10.5281/zenodo.21705685
+DOI:
+
+https://doi.org/10.5281/zenodo.21705685
+
 ---
 
-## Developer
+# Important Disclaimer
 
-**Dr. Subham Sarkar, MD**  
+DrSarkar MedStats is intended solely to support clinical research planning, statistical decision support, and preliminary data analysis.
+
+The software does **not** replace:
+
+- Professional biostatistical consultation
+- Institutional ethics review
+- Expert clinical judgment
+- Comprehensive literature review
+- Formal statistical analysis planning
+
+Users remain responsible for the scientific design, statistical methodology, interpretation, and reporting of their research.
+
+---
+
+# Source Code
+
+The production source code is maintained in a private repository and is not publicly distributed.
+
+This repository serves as the official public software landing page and contains:
+
+- Software documentation
+- DOI registration
+- Citation metadata
+- Release history
+- Software updates
+- Issue tracking
+
+---
+
+# Developer
+
+**Dr. Subham Sarkar, MD**
+
 Senior Resident  
 Department of Pharmacology  
-All India Institute of Medical Sciences (AIIMS), Kalyani, India
+All India Institute of Medical Sciences (AIIMS), Kalyani  
+West Bengal, India
 
 ---
 
-## License
+# License
 
 © 2026 Dr. Subham Sarkar. All rights reserved.
 
-The web application is freely accessible for research and educational purposes. The source code is proprietary and is not publicly distributed. Unauthorized copying, redistribution, or modification of the software is prohibited without prior written permission.
+DrSarkar MedStats is proprietary software.
+
+The web application is freely accessible for research and educational purposes. The source code is confidential and is not publicly distributed.
+
+No permission is granted to copy, modify, redistribute, reverse engineer, or incorporate any portion of the software into derivative works without prior written authorization from the copyright holder.
