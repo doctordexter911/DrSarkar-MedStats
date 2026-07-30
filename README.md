@@ -1,4 +1,5 @@
 # DrSarkar MedStats
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21705685.svg)](https://doi.org/10.5281/zenodo.21705685)
 
 **Current Version:** v1.0.0  
 **Status:** Active Development  
@@ -126,10 +127,11 @@ The production source code is maintained in a private repository by the develope
 
 ## Citation
 
-If you use DrSarkar MedStats in academic work, please cite the archived software release.
+If you use DrSarkar MedStats in your research, please cite:
 
-**DOI:** *To be assigned.*
+Sarkar, S. (2026). *DrSarkar MedStats* (Version 1.0.2) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.21705685
 
+**DOI:** https://doi.org/10.5281/zenodo.21705685
 ---
 
 ## Developer
